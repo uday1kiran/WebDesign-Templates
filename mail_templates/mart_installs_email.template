@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+</style>
+</head>
+<body>
+
+<h2>VAR_WORKFLOW - Successful</h2>
+
+<table>
+  <tr>
+    <td>GitHub Repository</td>
+    <td>VAR_REPO</td>
+  </tr>
+  <tr>
+    <td>Version</td>
+    <td>VAR_VERSION</td>
+  </tr>
+  <tr>
+    <td>Github Actions Build Number</td>
+    <td>VAR_RUNNER</td>
+  </tr>
+  <tr>
+    <td>GitHub Branch Name</td>
+    <td>VAR_REF</td>
+  </tr>
+  <tr>
+    <td>Commit Count or Build Number</td>
+    <td>VAR_COUNT</td>
+  </tr>
+  <tr>
+    <td>Daily Builds</td>
+    <td><a href="VAR_URL">OneDrive Link</a></td>
+  </tr>
+</table>
+
+</body>
+</html>
+
